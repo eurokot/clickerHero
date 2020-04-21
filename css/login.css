@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 #bg{
@@ -50,7 +49,7 @@ body{
     border-color: #2ecc71;
 }
 
-#add{
+#go{
     border: 0;
     background: none;
     display: block;
@@ -67,7 +66,7 @@ body{
     cursor: pointer;
 }
 
-#back{
+#reg{
     border: 0;
     background: none;
     display: block;
@@ -83,6 +82,6 @@ body{
     cursor: pointer;
 }
 
-#add:hover, #back:hover{
+#go:hover, #reg:hover{
     background: #ffa500;
 }
